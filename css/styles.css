@@ -33,6 +33,12 @@ img {
     background: var(--primary-color);
 }
 
+.section-heading {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .container {
     max-width: var(--container-normal);
     margin: 0 auto;
@@ -107,6 +113,22 @@ img {
     font-size: 1rem;
     margin-bottom: 0.5rem;
 
+}
+
+.services {
+    behavior: #333;
+    color: #fff;
+    padding: 3rem 0 4rem;
+}
+
+.services-flex {
+    display: flex;
+    gap: 2rem;
+}
+
+.service-item h4{
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
 }
 
 @media(max-width:768px) {
